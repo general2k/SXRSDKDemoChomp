@@ -1,0 +1,6 @@
+framework module SXRSDK {
+  umbrella header "SXRSDK.h"
+
+  export *
+  module * { export * }
+}

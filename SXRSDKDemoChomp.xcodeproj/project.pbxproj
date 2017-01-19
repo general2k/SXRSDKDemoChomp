@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B00C93C01E30666600EF1853 /* SXRService.m in Sources */ = {isa = PBXBuildFile; fileRef = B00C93BF1E30666600EF1853 /* SXRService.m */; };
+		B00C93CB1E306B0A00EF1853 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B00C93C81E306B0A00EF1853 /* MainTableViewController.m */; };
+		B00C93CC1E306B0A00EF1853 /* ScanDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B00C93CA1E306B0A00EF1853 /* ScanDeviceViewController.m */; };
+		B00C93D01E306E9300EF1853 /* SXRSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00C93CF1E306E9300EF1853 /* SXRSDK.framework */; };
+		B00C93D31E307C4B00EF1853 /* GetHistoryDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B00C93D21E307C4B00EF1853 /* GetHistoryDataViewController.m */; };
+		B00C93D61E307D9200EF1853 /* CurrentDeviceInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B00C93D51E307D9200EF1853 /* CurrentDeviceInfoViewController.m */; };
 		B01BD6D61DB7569600DE7A5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B01BD6D51DB7569600DE7A5B /* main.m */; };
 		B01BD6D91DB7569600DE7A5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B01BD6D81DB7569600DE7A5B /* AppDelegate.m */; };
 		B01BD6DC1DB7569600DE7A5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B01BD6DB1DB7569600DE7A5B /* ViewController.m */; };
@@ -17,6 +23,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B00C93BE1E30666600EF1853 /* SXRService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXRService.h; sourceTree = "<group>"; };
+		B00C93BF1E30666600EF1853 /* SXRService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXRService.m; sourceTree = "<group>"; };
+		B00C93C71E306B0A00EF1853 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		B00C93C81E306B0A00EF1853 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		B00C93C91E306B0A00EF1853 /* ScanDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanDeviceViewController.h; sourceTree = "<group>"; };
+		B00C93CA1E306B0A00EF1853 /* ScanDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanDeviceViewController.m; sourceTree = "<group>"; };
+		B00C93CF1E306E9300EF1853 /* SXRSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SXRSDK.framework; sourceTree = "<group>"; };
+		B00C93D11E307C4B00EF1853 /* GetHistoryDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetHistoryDataViewController.h; sourceTree = "<group>"; };
+		B00C93D21E307C4B00EF1853 /* GetHistoryDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetHistoryDataViewController.m; sourceTree = "<group>"; };
+		B00C93D41E307D9200EF1853 /* CurrentDeviceInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentDeviceInfoViewController.h; sourceTree = "<group>"; };
+		B00C93D51E307D9200EF1853 /* CurrentDeviceInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentDeviceInfoViewController.m; sourceTree = "<group>"; };
 		B01BD6D11DB7569600DE7A5B /* SXRSDKDemoChomp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SXRSDKDemoChomp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B01BD6D51DB7569600DE7A5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B01BD6D71DB7569600DE7A5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -35,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B00C93D01E306E9300EF1853 /* SXRSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +62,7 @@
 		B01BD6C81DB7569600DE7A5B = {
 			isa = PBXGroup;
 			children = (
+				B00C93CF1E306E9300EF1853 /* SXRSDK.framework */,
 				B01BD6D31DB7569600DE7A5B /* SXRSDKDemoChomp */,
 				B01BD6D21DB7569600DE7A5B /* Products */,
 			);
@@ -60,6 +79,16 @@
 		B01BD6D31DB7569600DE7A5B /* SXRSDKDemoChomp */ = {
 			isa = PBXGroup;
 			children = (
+				B00C93C71E306B0A00EF1853 /* MainTableViewController.h */,
+				B00C93C81E306B0A00EF1853 /* MainTableViewController.m */,
+				B00C93C91E306B0A00EF1853 /* ScanDeviceViewController.h */,
+				B00C93CA1E306B0A00EF1853 /* ScanDeviceViewController.m */,
+				B00C93D11E307C4B00EF1853 /* GetHistoryDataViewController.h */,
+				B00C93D21E307C4B00EF1853 /* GetHistoryDataViewController.m */,
+				B00C93D41E307D9200EF1853 /* CurrentDeviceInfoViewController.h */,
+				B00C93D51E307D9200EF1853 /* CurrentDeviceInfoViewController.m */,
+				B00C93BE1E30666600EF1853 /* SXRService.h */,
+				B00C93BF1E30666600EF1853 /* SXRService.m */,
 				B01BD6D71DB7569600DE7A5B /* AppDelegate.h */,
 				B01BD6D81DB7569600DE7A5B /* AppDelegate.m */,
 				B01BD6DA1DB7569600DE7A5B /* ViewController.h */,
@@ -113,6 +142,7 @@
 				TargetAttributes = {
 					B01BD6D01DB7569600DE7A5B = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W2694KNKE8;
 					};
 				};
 			};
@@ -153,8 +183,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B01BD6DC1DB7569600DE7A5B /* ViewController.m in Sources */,
+				B00C93C01E30666600EF1853 /* SXRService.m in Sources */,
+				B00C93CB1E306B0A00EF1853 /* MainTableViewController.m in Sources */,
 				B01BD6D91DB7569600DE7A5B /* AppDelegate.m in Sources */,
+				B00C93D31E307C4B00EF1853 /* GetHistoryDataViewController.m in Sources */,
+				B00C93CC1E306B0A00EF1853 /* ScanDeviceViewController.m in Sources */,
 				B01BD6D61DB7569600DE7A5B /* main.m in Sources */,
+				B00C93D61E307D9200EF1853 /* CurrentDeviceInfoViewController.m in Sources */,
 				B01BD6E21DB7569600DE7A5B /* SXRSDKDemoChomp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +302,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W2694KNKE8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SXRSDKDemoChomp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.general2k.SXRSDKDemoChomp;
@@ -278,6 +318,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W2694KNKE8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SXRSDKDemoChomp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.general2k.SXRSDKDemoChomp;
@@ -304,6 +349,7 @@
 				B01BD6ED1DB7569600DE7A5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
