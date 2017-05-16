@@ -10,9 +10,9 @@
 #import <SXRSDK/SXRSDK.h>
 #import <CoreBluetooth/CoreBluetooth.h>
 
-#define DEMO_APPID @"test"
-#define DEMO_SECRET @"test"
-#define DEMO_VID @"000004001004"
+#define DEMO_APPID @"NRJKB0DY24M0QYX"
+#define DEMO_SECRET @"V6z65iDd2OiEZ52venfBw5KrLkA8KajNJSd9KuDR"
+#define DEMO_VID @"FFFFF1001001"
 
 @interface SXRService()
 @end
